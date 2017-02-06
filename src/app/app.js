@@ -46,10 +46,10 @@ var constants = require('./constants');
         var weatherConditions = results.weather[0].main;
         var temperatureFahr = Math.round(temperature * 9/5 +32);
 
-        $('div.celsium span').html(temperature + " ");
-        $('div.farenheit span').html(temperatureFahr + " ");
-        $('div.humidity span').html(humidity + " ");
-        $('div.wind span').html(windSpeed + " ");
+        $('div.celsium span').html(temperature + " &degC");
+        $('div.farenheit span').html(temperatureFahr + " &degF");
+        $('div.humidity span').html(humidity + " %");
+        $('div.wind span').html(windSpeed + " m/s");
         $('div.description').html(results.weather[0].main);
         $('img.icon').attr("src", constants.CONDITIONS_CONSTS[weatherConditions].image);
         $('.weather-app-bg').css("background-color", constants.CONDITIONS_CONSTS[weatherConditions].background)

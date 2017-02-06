@@ -29,7 +29,7 @@ body{
 .flip-container {
     margin:0 auto;
     display:inline-block;
-    width:210px;
+    width:250px;
 }
 /* flip the pane when hovered */
 .flip-container, .front, .back {
