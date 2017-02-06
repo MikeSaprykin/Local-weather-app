@@ -4,6 +4,7 @@
 
 Local Weather App Task from [FreeCodeCamp](https://www.freecodecamp.com/challenges/show-the-local-weather)
 The app get's your location using [IP-API](http://ip-api.com/) and then using [Open-Weather API](http://api.openweathermap.org/data/2.5/weather) to generate Weather Forecast for today
+See built and runnig up on my pages [here](http://mikesaprykin.github.io/Local-weather-app/)
 
 ## Software stack:
 
