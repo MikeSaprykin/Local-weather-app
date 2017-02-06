@@ -43,7 +43,7 @@ var constants = require('./constants');
         var windSpeed = Math.round(results.wind.speed);
         var humidity = results.main.humidity;
         var temperature = Math.round(results.main.temp);
-        var weatherConditions = results.weather[0].description;
+        var weatherConditions = results.weather[0].main;
         var temperatureFahr = Math.round(temperature * 9/5 +32);
 
         $('div.celsium span').html(temperature + " ");
