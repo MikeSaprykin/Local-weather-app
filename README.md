@@ -55,7 +55,7 @@ See built and runnig up on my pages [here](http://mikesaprykin.github.io/Local-w
     
 ```bash
 # clone our repo
-git clone git@github.com:MikeSaprykin/Local-weather-app.git
+git clone git@github.com:MikeSaprykin/local-weather-app.git
 
 # change directory to our repo
 cd Local-weather-app
