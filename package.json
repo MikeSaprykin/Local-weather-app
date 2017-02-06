@@ -1,0 +1,57 @@
+{
+  "name": "local-weather-app",
+  "version": "1.0.0",
+  "description": "Local weather app free code camp task, updated with using webpack, github pages, scss and karma/jasmine unit testing\"",
+  "main": "karma.conf.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "karma start",
+    "build": "webpack --config config/webpack.common.js --progress --profile",
+    "start": "webpack-dev-server --config config/webpack.common.js --progress --profile --watch --content-base src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeSaprykin/Local-weather-app.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Webpack",
+    "2",
+    "SCSS",
+    "TDD",
+    "Studying",
+    "Education"
+  ],
+  "author": "Mike Saprykin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeSaprykin/Local-weather-app/issues"
+  },
+  "homepage": "https://github.com/MikeSaprykin/Local-weather-app#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.7.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta",
+    "html-webpack-plugin": "^2.28.0",
+    "istanbul-instrumenter-loader": "1.2.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.2.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-mocha-reporter": "^2.0.0",
+    "karma-remap-coverage": "^0.1.4",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "2.0.1",
+    "node-sass": "^4.5.0",
+    "postcss-loader": "^1.2.2",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}

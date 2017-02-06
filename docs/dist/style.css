@@ -1,0 +1,94 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.weather-app-bg{
+    border-radius:10px;
+    display:none;
+    float:none;
+    margin:20px auto;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.deg-trigger{
+    cursor:pointer;
+}
+
+*{
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
+.temperature{
+    position:relative;
+    display:block;
+}
+/* entire container, keeps perspective */
+.flip-container {
+    margin:0 auto;
+    display:inline-block;
+    width:210px;
+}
+/* flip the pane when hovered */
+.flip-container, .front, .back {
+    height: 80px;
+}
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+}
+
+.vertical.flip-container {
+    position: relative;
+}
+
+.vertical.flip-container .flipper {
+    -webkit-transform-origin: 100% 40px;
+    transform-origin: 100% 40px; /* half of height */
+}
+
+.flip-container.hover .flipper, .flip-container.flip .flipper {
+    -webkit-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+}
+
+.clear{
+    clear:both;
+}
+
+.wind-humidity{
+    font-size:50px;
+}
+
+.weather-app-bg{
+    color:#fff;
+    font-size:56px;
+}
