@@ -10,31 +10,31 @@ module.exports = {
         OPEN_WEATHER_API: "http://api.openweathermap.org/data/2.5/weather?",
 
         CONDITIONS_CONSTS: {
-            "thunderstorm": {
+            "Thunderstorm": {
                 "image": "http://s22.postimg.org/yr5ly9dtd/cloud_3.png",
                 "background": "#61BD6D"
             },
-            "drizzle": {
+            "Drizzle": {
                 "image": "http://s22.postimg.org/72edd01f5/cloud.png",
                 "background": "#1ABC9C"
             },
-            "rain": {
+            "Rain": {
                 "image": "http://s22.postimg.org/jsilq39dd/cloud_2.png",
                 "background": "#2C82C9"
             },
-            "snow": {
+            "Snow": {
                 "image": "http://s22.postimg.org/ajgffz0hd/cloud_1.png",
                 "background": "#D1D5D8"
             },
-            "clouds": {
+            "Clouds": {
                 "image": "http://s22.postimg.org/vdsrxsuup/two.png",
                 "background": "#54ACD2"
             },
-            "clear": {
+            "Clear": {
                 "image": "http://s22.postimg.org/a5f3gdgdt/circle.png",
                 "background": "#F7DA64"
             },
-            "mist": {
+            "Mist": {
                 "image": "http://s23.postimg.org/yt3w4atjf/weather_1.png",
                 "background": "#89C4F4"
             }
