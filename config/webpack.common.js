@@ -12,7 +12,7 @@ module.exports = {
 
     output: {
         path: helpers.root('docs','dist'),
-        publicPath: '/dist/',
+        publicPath: 'dist/',
         filename: '[name].js',
     },
 
