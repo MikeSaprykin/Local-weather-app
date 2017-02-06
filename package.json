@@ -9,7 +9,8 @@
   "scripts": {
     "test": "karma start",
     "build": "webpack --config config/webpack.common.js --progress --profile",
-    "start": "webpack-dev-server --config config/webpack.common.js --progress --profile --watch --content-base src/"
+    "start": "webpack --config config/webpack.common.js --progress --profile --watch",
+    "server": "webpack-dev-server --config config/webpack.common.js --progress --profile --watch --content-base src/"
   },
   "repository": {
     "type": "git",
