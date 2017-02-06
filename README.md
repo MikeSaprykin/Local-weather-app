@@ -68,7 +68,7 @@ npm install
 # npm run server
 
 # builds app with webpack into docs folder
-# npm run build
+  npm run build
 
 # navigate to docs folder
 cd docs
@@ -83,3 +83,12 @@ Where to start:
 ------
  * You can watch compiled and working app [here](http://mikesaprykin.github.io/Local-weather-app/)
  * Watch my FreeCodeCamp [profile](https://www.freecodecamp.com/mikesaprykin)
+ 
+TODOs:
+-----
+* [ ] Build bootstrap and jquery with webpack
+* [ ] Update Webpack-test.config
+* [ ] Fix webpack-dev server support
+* [ ] Update karma-shim.js
+* [ ] Update karma.config.js
+* [ ] Cover with unit tests
